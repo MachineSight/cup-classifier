@@ -7,7 +7,7 @@ dataset, training with a two-phase fine-tuning strategy, running inference
 with confidence scores, and visualising model decisions with
 Grad-CAM and SmoothGrad.
 
-This project accompanies a blog post I wrote [on learning representations](https://machinesight.github.io/),
+This project accompanies a blog post I wrote [on learning representations](https://machinesight.github.io/posts/on-learning-representations),
 which is about the foundations of learning, and useful representations that aids an AI algorithm to understand underlying patterns.
 
 ## Project structure
@@ -80,5 +80,5 @@ This saves two images to `explanations/` (configurable via `--output-dir`):
   several noisy copies of the input to cancel out the noise that plain
   gradient-based saliency maps suffer from.
 
-#### _Find the written article on [MachineSight](https://machinesight.github.io/)_
+#### _Find the written article on [MachineSight](https://machinesight.github.io/posts/on-learning-representations)_
  
